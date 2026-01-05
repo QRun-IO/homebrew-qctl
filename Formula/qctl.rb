@@ -1,28 +1,28 @@
 class Qctl < Formula
   desc "CLI for the QRun ecosystem - scaffold, package, and deploy QQQ apps"
   homepage "https://github.com/QRun-IO/qctl"
-  version "0.2.0"
+  version "0.2.1"
   license "AGPL-3.0"
 
   on_macos do
     on_arm do
       url "https://github.com/QRun-IO/qctl/releases/download/v#{version}/qctl-macos-arm64"
-      sha256 "abb3c8efddb5e76f3edf79ff36b745516d1c9e785098cb3660993ded832b185a"
+      sha256 "591a0e6a43981bc7a3738633d782258bdef93c759bb4a003df345f8b992c2329"
     end
     on_intel do
       url "https://github.com/QRun-IO/qctl/releases/download/v#{version}/qctl-macos-amd64"
-      sha256 "d91e98ea2082d7ad0d2c8acd4bed33bcfe2cc34a8a0a0879cbc0d9ecb6f9edcb"
+      sha256 "566fcb178f057eba63653308caa23b760df81d17ac1e56020deb0ed9aa024f99"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/QRun-IO/qctl/releases/download/v#{version}/qctl-linux-arm64"
-      sha256 "3cbc9b82c028fdc594f2c741e97a62f64b770bda44a820fb07c74da1ab4eaf84"
+      sha256 "5895a5bbde165ab1195893ecf68427c3acbca26e9b2ed26cb86b32312f71f940"
     end
     on_intel do
       url "https://github.com/QRun-IO/qctl/releases/download/v#{version}/qctl-linux-amd64"
-      sha256 "a519fee389b5be2cff2d01b76cc958c3c36156f3f0c2693636afee37c4fc7b1d"
+      sha256 "79654f35570d77d8e65b4856238e83df290f4ab196a2ec39099fa823a545d7f2"
     end
   end
 
